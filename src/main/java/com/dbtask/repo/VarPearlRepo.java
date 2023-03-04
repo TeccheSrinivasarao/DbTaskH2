@@ -15,7 +15,7 @@ public interface VarPearlRepo extends JpaRepository<VarPearlFeed, Long>{
 	@Query(value =  "SELECT SUM(REPORTED_AMOUNT) FROM VAR_PERL_FEED WHERE YEAR1 = :year", nativeQuery = true)
 	BigDecimal sumAmount(@Param("year") String year);
 
-	@Query(value =  "SELECT COUNT(YEAR1) FROM VAR_PERL_FEED WHERE YEAR1 = :year", nativeQuery = true)
+	@Query(value =  "SELECT COUNT(REPORTED_AMOUNT) FROM VAR_PERL_FEED WHERE REPORTED_AMOUNT > 0 and YEAR1 = :year", nativeQuery = true)
 	BigDecimal countAmount(String year);
 
 }
