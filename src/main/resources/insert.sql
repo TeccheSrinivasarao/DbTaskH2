@@ -1,0 +1,11 @@
+insert into var_perl_feed (id, year1, reported_amount)  values (1, 2022, -5045820.285);
+insert into var_perl_feed (id, year1, reported_amount)  values (2, 2022, -5045950.285);
+insert into var_perl_feed (id, year1, reported_amount)  values (3, 2022, -5045927.285);
+insert into var_perl_feed (id, year1, reported_amount)  values (4, 2022, -5045920.285);
+insert into var_perl_feed (id, year1, reported_amount)  values (5, 2022, 0);
+insert into var_perl_feed (id, year1, reported_amount)  values (6, 2022, 1045920);
+insert into var_perl_feed (id, year1, reported_amount)  values (7, 2023, -5045920.285);
+insert into var_perl_feed (id, year1, reported_amount)  values (8, 2023, 5045920.285);
+insert into var_perl_feed (id, year1, reported_amount)  values (9, 2023, 5045920.285);
+insert into var_perl_feed (id, year1, reported_amount)  values (10, 2024, -5045920.285);
+commit;
